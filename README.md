@@ -16,7 +16,6 @@ Your changes will appear without reloading the browser
 
 ```
 npm run deploy
-npm run start-deploy
 open http://localhost:3001
 ```
 

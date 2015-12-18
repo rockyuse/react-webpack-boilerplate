@@ -4,8 +4,8 @@
   "description": "Boilerplate for ReactJS with webpack",
   "scripts": {
     "start": "node server.js",
-    "deploy": "webpack --config webpack.config.prod.js",
-    "start-deploy": "node server.prod.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "deploy": "npm run build && node server.prod.js",
     "lint": "eslint src"
   },
   "repository": {
